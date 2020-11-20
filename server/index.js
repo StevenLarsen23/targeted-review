@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const express = require("express");
 const massive = require("massive");
-const session = reqire("express-session");
+const session = require("express-session");
 
 const punCtrl = require("./punController");
 const userCtrl = require("./userController");

@@ -1,1 +1,1 @@
-SELECT * FROM puns;
+SELECT * FROM puns ORDER BY pun_id;

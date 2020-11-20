@@ -3,4 +3,4 @@ INSERT INTO puns
 VALUES
 ($1, $2, 5);
 
-SELECT * FROM puns;
+SELECT * FROM puns ORDER BY pun_id;

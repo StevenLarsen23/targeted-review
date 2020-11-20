@@ -7,7 +7,7 @@ export default (
   <Switch>
     <Route exact path="/" component={Auth} />
     <Route path="/dash" component={Dashboard} />
-    <Route path="/profile" component={profile} />
+    <Route path="/profile" component={Profile} />
     <Route
       render={() => {
         <div>
